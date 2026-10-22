@@ -1,0 +1,14 @@
+CMD: commonroad_reach_crosscheck.py DEU_Ffb-2_2_S-1.xml --keep 2:0 --grid 0.1 --split 0.05
+intended trajectory: constant acceleration per step, max deviation from centreline 0.061 m
+scenario built: 12 lanelets, 3 obstacles; TTC steps: 12
+initial uncertainty: default uncertainty_p_lon=0.01, uncertainty_p_lat=0.01, uncertainty_v_lon=0.01, uncertainty_v_lat=0.01 | used uncertainty_p_lon=0.01, uncertainty_p_lat=0.01, uncertainty_v_lon=0.01, uncertainty_v_lat=0.01
+t*=0.0s reachable set at t_f: nonempty  (65.9 s)
+t*=0.1s reachable set at t_f: nonempty  (57.8 s)
+t*=0.2s reachable set at t_f: nonempty  (48.7 s)
+t*=0.3s reachable set at t_f: nonempty  (37.6 s)
+t*=0.4s reachable set at t_f: nonempty  (16.1 s)
+t*=0.5s reachable set at t_f: nonempty  (9.4 s)
+t*=0.6s reachable set at t_f: nonempty  (6.0 s)
+t*=0.7s reachable set at t_f: nonempty  (4.5 s)
+t*=0.8s reachable set at t_f: EMPTY  (0.1 s)
+TTR_max = 0.8 s

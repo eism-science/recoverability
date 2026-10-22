@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper and this repository."
+title: "Additional Information and Time to Use It: code and data"
+type: software
+authors:
+  - family-names: Razo
+    given-names: Luis
+    affiliation: "European Institute of Science in Management (EISM), Barcelona, Spain"
+repository-code: "https://github.com/eism-science/recoverability"
+license: MIT
+version: "1.0"
+date-released: "2026-10-22"
+keywords:
+  - value of information
+  - decision deadlines
+  - time-to-react
+  - reachability analysis
+  - CommonRoad
+preferred-citation:
+  type: article
+  title: "Additional Information and Time to Use It"
+  authors:
+    - family-names: Razo
+      given-names: Luis
+      affiliation: "European Institute of Science in Management (EISM), Barcelona, Spain"
+  year: 2026

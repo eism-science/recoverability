@@ -1,0 +1,136 @@
+{
+ "params": {
+  "pi": 0.5,
+  "q0": 0.65,
+  "qc": 0.9,
+  "kappa": 0.3,
+  "k": 0.02
+ },
+ "postponement": {
+  "h": 0.0005,
+  "delta": 0.01,
+  "min_delay": 20.0,
+  "mean_delay": 6.0
+ },
+ "e0": 0.35,
+ "e_independent_check": 0.09999999999999998,
+ "simulation": [
+  {
+   "iota": 1.0,
+   "p": 0.8,
+   "c": 0.0,
+   "g": 0.0,
+   "mu": [
+    0.0,
+    0.0
+   ],
+   "exact": 0.04000000000000001,
+   "simulated": 0.04002850000000001
+  },
+  {
+   "iota": 0.5,
+   "p": 0.5,
+   "c": 0.5,
+   "g": 0.0,
+   "mu": [
+    0.0,
+    0.0
+   ],
+   "exact": -0.10187500000000001,
+   "simulated": -0.101968
+  },
+  {
+   "iota": 0.8,
+   "p": 0.9,
+   "c": 0.5,
+   "g": 0.5,
+   "mu": [
+    0.3,
+    0.6
+   ],
+   "exact": -0.01415999999999996,
+   "simulated": -0.014159249999999984
+  },
+  {
+   "iota": 1.0,
+   "p": 1.0,
+   "c": 0.5,
+   "g": 0.5,
+   "mu": [
+    0.0,
+    1.0
+   ],
+   "exact": 0.085,
+   "simulated": 0.08543350000000001
+  }
+ ],
+ "figure_1": {
+  "0.0": {
+   "share_of_grid_where_check_pays": 0.3802568375649446,
+   "max_value": 0.05500000000000001
+  },
+  "0.5": {
+   "share_of_grid_where_check_pays": 0.00892069404960298,
+   "max_value": 0.02000000000000002
+  },
+  "1.0": {
+   "share_of_grid_where_check_pays": 0.0,
+   "max_value": -0.014999999999999968
+  }
+ },
+ "sweep": {
+  "combinations": 2187,
+  "holds_in": {
+   "fixed deadline: (i)": "2187/2187",
+   "fixed deadline: (ii) independence": "2187/2187",
+   "fixed deadline: (ii) arrival": "2187/2187",
+   "fixed deadline: (ii) deadline move": "2187/2187",
+   "fixed deadline: (iii)": "2187/2187",
+   "fixed deadline: (iv)": "2187/2187",
+   "fixed deadline: closed form = search": "2187/2187",
+   "fixed deadline: condition = value": "2187/2187",
+   "moving deadline, mu=(0.0, 1.0), g=0.5: (i)": "2187/2187",
+   "moving deadline, mu=(0.0, 1.0), g=0.5: (ii) independence": "2187/2187",
+   "moving deadline, mu=(0.0, 1.0), g=0.5: (ii) arrival": "2187/2187",
+   "moving deadline, mu=(0.0, 1.0), g=0.5: (ii) deadline move": "2187/2187",
+   "moving deadline, mu=(0.0, 1.0), g=0.5: (iii)": "2187/2187",
+   "moving deadline, mu=(0.0, 1.0), g=0.5: (iv)": "2187/2187",
+   "moving deadline, mu=(0.0, 1.0), g=0.5: closed form = search": "2187/2187",
+   "moving deadline, mu=(0.0, 1.0), g=0.5: condition = value": "2187/2187",
+   "moving deadline, mu=(0.3, 0.6), g=0.25: (i)": "2187/2187",
+   "moving deadline, mu=(0.3, 0.6), g=0.25: (ii) independence": "2187/2187",
+   "moving deadline, mu=(0.3, 0.6), g=0.25: (ii) arrival": "2187/2187",
+   "moving deadline, mu=(0.3, 0.6), g=0.25: (ii) deadline move": "2187/2187",
+   "moving deadline, mu=(0.3, 0.6), g=0.25: (iii)": "2187/2187",
+   "moving deadline, mu=(0.3, 0.6), g=0.25: (iv)": "2187/2187",
+   "moving deadline, mu=(0.3, 0.6), g=0.25: closed form = search": "2187/2187",
+   "moving deadline, mu=(0.3, 0.6), g=0.25: condition = value": "2187/2187",
+   "moving deadline, mu=(0.5, 0.5), g=0.5: (i)": "2187/2187",
+   "moving deadline, mu=(0.5, 0.5), g=0.5: (ii) independence": "2187/2187",
+   "moving deadline, mu=(0.5, 0.5), g=0.5: (ii) arrival": "2187/2187",
+   "moving deadline, mu=(0.5, 0.5), g=0.5: (ii) deadline move": "2187/2187",
+   "moving deadline, mu=(0.5, 0.5), g=0.5: (iii)": "2187/2187",
+   "moving deadline, mu=(0.5, 0.5), g=0.5: (iv)": "2187/2187",
+   "moving deadline, mu=(0.5, 0.5), g=0.5: closed form = search": "2187/2187",
+   "moving deadline, mu=(0.5, 0.5), g=0.5: condition = value": "2187/2187",
+   "postponement: never worse": "2187/2187",
+   "postponement: best delay at most e0 L(0)/h": "2187/2187"
+  }
+ },
+ "random_settings": {
+  "settings": 3000,
+  "failures": {
+   "closed form = search": 0,
+   "condition": 0,
+   "e* <= e0": 0,
+   "(i)": 0,
+   "(ii) arrival": 0,
+   "(ii) independence": 0,
+   "(ii) deadline move": 0,
+   "(iii)": 0,
+   "(iv)": 0
+  },
+  "settings_where_a_likelier_move_lowers_the_value": 555,
+  "settings_where_scaling_both_chances_up_lowers_the_value": 0
+ }
+}

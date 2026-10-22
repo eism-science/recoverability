@@ -1,0 +1,3 @@
+# Grid over-approximation (commonroad_ttr.py). Versions as installed on the machine that produced the logs on 2026-10-21 (Python 3.12.3).
+numpy==2.4.6
+shapely==2.2.0

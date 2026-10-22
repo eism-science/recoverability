@@ -1,0 +1,20 @@
+{
+  "title": "Additional Information and Time to Use It: code and data",
+  "upload_type": "software",
+  "description": "Code, logs and results for the paper 'Additional Information and Time to Use It': a deadline model of when checking pays before an irreversible step, and time-to-react computations at a CommonRoad intersection with a grid over-approximation and with CommonRoad-Reach.",
+  "creators": [
+    {
+      "name": "Razo, Luis",
+      "affiliation": "European Institute of Science in Management (EISM), Barcelona, Spain"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "value of information",
+    "decision deadlines",
+    "time-to-react",
+    "reachability analysis",
+    "CommonRoad"
+  ],
+  "version": "1.0"
+}

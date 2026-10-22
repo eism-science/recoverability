@@ -1,0 +1,18 @@
+Logs, results and figures in this repository
+
+Copyright (c) 2026 Luis Razo
+
+The logs (commonroad/logs/), the version records (environment/versions_reach.txt
+and the versions.txt files in commonroad/logs/), the results file and figure
+(deadline_model/results/) and the scenario plot (commonroad/scenario/scene.png)
+are licensed under the Creative Commons Attribution 4.0 International licence
+(CC BY 4.0):
+
+    https://creativecommons.org/licenses/by/4.0/
+
+You may share and adapt them for any purpose, provided you give appropriate
+credit, provide a link to the licence and indicate if changes were made.
+
+This licence does not cover the code (see LICENSE) or the third-party CommonRoad
+scenario commonroad/scenario/DEU_Ffb-2_2_S-1.xml, which is distributed under its
+own BSD 3-Clause licence (commonroad/scenario/LICENSE-scenario.txt).

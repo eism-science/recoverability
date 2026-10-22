@@ -1,0 +1,5 @@
+# reruns of the deadline model
+deadline_model/output/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
