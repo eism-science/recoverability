@@ -1,6 +1,6 @@
 # Additional Information and Time to Use It: code and data
 
-Code, logs and results for the paper *Additional Information and Time to Use It* (L. Razo, 2026). The paper shows
+Code, logs and results for the paper *Additional Information and Time to Use It: Two-Boundary Recoverability* (L. Razo, 2026). The paper shows
 that, as long as the task stays the same, a second source of information can improve a decision only if it is new
 and arrives before the last moment a correction can still be started. This repository reproduces every number,
 table and figure the paper computes.
