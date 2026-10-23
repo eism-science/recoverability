@@ -9,7 +9,7 @@ authors:
 repository-code: "https://github.com/eism-science/recoverability"
 license: MIT
 version: "1.0"
-date-released: "2026-10-22"
+date-released: "2026-10-24"
 keywords:
   - value of information
   - decision deadlines
@@ -18,7 +18,7 @@ keywords:
   - CommonRoad
 preferred-citation:
   type: article
-  title: "Additional Information and Time to Use It"
+  title: "Additional Information and Time to Use It: Two-Boundary Recoverability"
   authors:
     - family-names: Razo
       given-names: Luis
