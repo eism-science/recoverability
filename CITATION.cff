@@ -5,7 +5,7 @@ type: software
 authors:
   - family-names: Razo
     given-names: Luis
-    affiliation: "European Institute of Science in Management (EISM), Barcelona, Spain"
+    affiliation: "EISM, Barcelona, Spain"
 repository-code: "https://github.com/eism-science/recoverability"
 license: MIT
 version: "1.0"
@@ -22,5 +22,5 @@ preferred-citation:
   authors:
     - family-names: Razo
       given-names: Luis
-      affiliation: "European Institute of Science in Management (EISM), Barcelona, Spain"
+      affiliation: "EISM, Barcelona, Spain"
   year: 2026
