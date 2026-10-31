@@ -1,6 +1,6 @@
 # CommonRoad time-to-react: code, data and results
 
-Code, data and results for the intersection example of the paper *Additional Information and Time to Use It* (Appendix B).
+Code, data and results for the intersection example of the paper *Additional Information and Time to Use It* (Appendix A).
 
 The logs were produced in the authors' development layout, so the command line at the top of each log names
 the older paths `notebooks/recoverability/` (scripts) and `data/recoverability/commonroad/` (scenario); the files

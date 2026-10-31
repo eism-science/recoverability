@@ -5,12 +5,14 @@ that, as long as the task stays the same, a second source of information can imp
 and arrives before the last moment a correction can still be started. This repository reproduces every number,
 table and figure the paper computes.
 
+The paper is under review at *Theory and Decision*. A copy is available from the author on request.
+
 ## Contents
 
 | Folder | What it holds |
 |---|---|
-| `deadline_model/` | The deadline model of Appendix A: the value of checking, Figure 1 and the numerical checks of the proposition |
-| `commonroad/` | The intersection example of Appendix B: two time-to-react computations on a CommonRoad scenario, with every log; details in `commonroad/README.md` |
+| `deadline_model/` | The deadline model of Section 3: the value of checking, Figure 1 and the numerical checks of the proposition |
+| `commonroad/` | The intersection example of Appendix A: two time-to-react computations on a CommonRoad scenario, with every log; details in `commonroad/README.md` |
 | `environment/` | Pinned package versions for each part |
 
 ## Claim-to-file map
@@ -18,13 +20,13 @@ table and figure the paper computes.
 | Paper item | Claim | Produced by | Evidence |
 |---|---|---|---|
 | Figure 1 | Region where an independent check pays, fixed deadline | `deadline_model/recoverability_deadline_model.py` | `deadline_model/results/fig1_where_checking_pays.png` |
-| Appendix A, "Where checking pays" | A sweep over 2,187 combinations of the assumed values, with a fixed deadline and three moving ones, agrees with the condition, with a search over every decision rule and with each part of the proposition | same | `deadline_model/results/deadline_model_results.json`, `sweep` |
+| Section 3, "Where checking pays" | A sweep over 2,187 combinations of the assumed values, with a fixed deadline and three moving ones, agrees with the condition, with a search over every decision rule and with each part of the proposition | same | `deadline_model/results/deadline_model_results.json`, `sweep` |
 | same | 3,000 random settings agree; in 0 of 3,000 further settings does scaling both chances of a move up in proportion lower the value | same | same file, `random_settings` |
-| Appendix A, "Postponing the step" | Postponing never worsens the best decision, and the best delay is at most e₀L(0)/h | same | same file, `postponement` |
+| Section 3, "Postponing the step" | Postponing never worsens the best decision, and the best delay is at most e₀L(0)/h | same | same file, `postponement` |
 | Table 2, CommonRoad-Reach row | Time-to-react 0.4, 0.8 and 0.4 s (turn unknown, same way, across) at grid 0.2 m and split radius 0.2 and 0.1 m | `commonroad/code/commonroad_reach_crosscheck.py`, run by the notebook | `commonroad/logs/reach_runs/` |
 | Table 2 caption | The default split radius of 0.7 m gives 0.5 s for the same-way case | same | `commonroad/logs/reach_runs/reach_keep20_grid0{1,2}_split07.log` |
 | Table 2, grid row | 0.5, 0.9 and 0.5 s at 0.125 m, with and without the road constraint | `commonroad/code/commonroad_ttr.py` | `commonroad/logs/grid_runs/` |
-| Appendix B, "Computed deadlines" | The same-way gain is kept if the turn is known by 0.4 s and lost at 0.5 s (CommonRoad-Reach); the same pattern 0.1 s later in the grid computation | both tools, `--from-step` | `commonroad/logs/later_intent/` |
+| Appendix A, "Computed deadlines" | The same-way gain is kept if the turn is known by 0.4 s and lost at 0.5 s (CommonRoad-Reach); the same pattern 0.1 s later in the grid computation | both tools, `--from-step` | `commonroad/logs/later_intent/` |
 
 The grid computation is an upper bound for the stated model. CommonRoad-Reach can discard small regions that are only
 partly blocked, so its values are close estimates rather than certified bounds. The scenario `DEU_Ffb-2_2_S-1` is
